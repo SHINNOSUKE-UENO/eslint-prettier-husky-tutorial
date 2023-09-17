@@ -1,0 +1,21 @@
+{
+  "env": {
+    "browser": true, //window, alert, document, etc
+    "node": true, //process, require, etc
+    "es6": true //new ES6 global variables e.g. Set
+  },
+  "parserOptions": {
+    "ecmaVersion": 6, //ES6
+    "sourceType": "module" //ES6 modules import/export
+  },
+  "rules": {
+    // "no-console": ["error"], //allow console.log
+    // "indent": ["error", 2], //2 spaces
+    // "quotes": ["error", "single"], //single quotes
+    // "semi": ["error", "always"], //semi-colons
+    // "no-unused-vars": ["warn"], //warn if unused variable
+    // "camelcase": ["warn"] //camelCase
+    "linebreak-style": ["off"]
+  },
+  "extends": ["airbnb-base"]
+}
